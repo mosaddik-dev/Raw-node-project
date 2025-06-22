@@ -17,11 +17,11 @@ environment.staging = {
   envName: "staging",
   secretKey: "12345",
   maxChecks: 5,
-  // twilio: {
-  //   fromPhone: "+17164775944",
-  //   accountSid: "",
-  //   authToken: "",
-  // },
+  twilio: {
+    fromPhone: "+17164775944",
+    accountSid: "",
+    authToken: "",
+  },
 };
 
 environment.production = {
@@ -29,11 +29,11 @@ environment.production = {
   envName: "production",
   secretKey: "123456",
   maxChecks: 5,
-  // twilio: {
-  //   fromPhone: "+17164775944",
-  //   accountSid: "",
-  //   authToken: "",
-  // },
+  twilio: {
+    fromPhone: "+17164775944",
+    accountSid: "",
+    authToken: "",
+  },
 };
 
 // determine which environment was passed
